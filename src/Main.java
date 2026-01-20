@@ -16,6 +16,12 @@ class Dog extends Animal {
 	}
 }
 
+class Cat extends Animal {
+	public void animalSound() {
+		System.out.println("The dog says: meow meow");
+	}
+}
+
 class Main {
 	public static void main(String[] args) {
 		Animal myAnimal = new Animal();
