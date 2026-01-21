@@ -6,7 +6,7 @@ class Animal {
 
 class Pig extends Animal {
 	public void animalSound() {
-		System.out.println("The pig says: wee wee");
+		System.out.println("The pig says: oink oink");
 	}
 }
 
@@ -18,7 +18,7 @@ class Dog extends Animal {
 
 class Cat extends Animal {
 	public void animalSound() {
-		System.out.println("The dog says: meow meow");
+		System.out.println("The cat says: meow meow");
 	}
 }
 
