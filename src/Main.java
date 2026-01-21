@@ -1,8 +1,3 @@
-class Animal {
-	public void animalSound() {
-		System.out.println("The animal makes a sound");
-	}
-}
 
 class Pig extends Animal {
 	public void animalSound() {
@@ -19,6 +14,15 @@ class Dog extends Animal {
 class Cat extends Animal {
 	public void animalSound() {
 		System.out.println("The cat says: meow meow");
+<<<<<<< HEAD
+=======
+	}
+}
+
+class Chicken extends Animal {
+	public void animalSound() {
+		System.out.println("The chicken says: cluck cluck");
+>>>>>>> development_2
 	}
 }
 
